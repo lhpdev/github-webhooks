@@ -1,7 +1,8 @@
 module Api
   module V1
     class EventsController < ApplicationController
-      skip_before_action :verify_authenticity_token
+      http_basic_authenticate_with name: Rails.application.credentials.github[:username], 
+                                   password: Rails.application.credentials.github[:password]
 
       before_action :events
 
