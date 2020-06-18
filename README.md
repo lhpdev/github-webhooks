@@ -63,7 +63,18 @@ Finally you will have to update the payload URL of your webhook on your github r
 
 Now you are ready to go! 
 
-Run your application: ```rails s``` and whenever you update something realted to 'Issues' in your remote repository, it will create and event in your databse :)
+Run your application: ```rails s``` and whenever you update something realted to 'Issues' in your remote repository, it will create and event in your database :)
+
+Making Requests on 'api/v1/events'
+
+This enpoint requires Basic Authentication
+
+So, if you are going to make a request your have to inform 
+Authorization: Type 'Basic Auth'
+and provide correct username and passord
+
+username: 'userqc'
+password: 'pass1234'
 
 That is it! 
 
