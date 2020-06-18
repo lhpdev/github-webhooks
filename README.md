@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple rails project where it integrates an api to the Gihub webhooks
 
 Each issue event created within this repository will be sent to this app which will persist that data into a database.
 
@@ -74,5 +73,5 @@ So, if you are going to make a request your have to inform
         username: 'userqc'
         password: 'pass1234'
 
-That is all! 
+That is all!!
 
